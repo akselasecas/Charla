@@ -1,0 +1,348 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Burned&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	background-image: url("img/otros/fondorojo.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+ 
+nav {
+	width: 75%;
+	display: block;
+  	margin-left: 12.5%; 
+	background-color: black;
+
+}
+
+nav ul {
+	width: 100%;
+	list-style-type: none;
+	text-align: center;
+}
+
+nav li {
+	display: inline-flex;
+}
+
+nav li:hover {
+	background-color: white;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: red;
+	padding-left: 20px; 
+	padding-right: 20px;
+	font-size: 25px;
+	font-family: 'Ubuntu', sans-serif;
+
+}
+	
+.cuerpo {
+	margin-top: 10px;
+	border-radius: 1%;
+	margin-left: 12.5%;
+	padding-bottom: 0%;
+	height: 200%;
+	width: 75%;
+	float: left;
+  	opacity: 90%;
+  	background-color: black;
+}
+
+.cuerpo img{
+	width:48%;
+	float:left;
+	vertical-align: top;
+	margin-top: 9%;
+	margin-right: 3%;
+}
+
+.texto {
+	margin: 4%;
+  	color: white; 
+    float:left;
+    font-size: 22px;
+    width: 40%;
+}
+
+.texto2 {
+	margin: 4%;
+  	color: white; 
+    text-align: left;
+    font-size: 25px;
+
+}	
+
+.parrafo1{
+	float:left;
+}
+
+.titulo {
+ 	text-align: center;
+ 	color: white;
+ 	padding: 2%;
+ 	height: 30%;
+ 	font-size: 60px;
+ 	font-family: 'Rubik Burned', system-ui;
+}
+
+.carrusel{
+    width: 100%;
+    margin:auto;
+    overflow: hidden;
+    float:left;
+    margin-left: 25%;
+    margin-bottom: 10%;
+
+}
+.carrusel ul{
+   display:flex;
+   padding: 0%; 
+   width: 400%;
+
+   animation: cambio 10s infinite;
+   animation-direction: alternate;
+}
+
+@keyframes cambio{
+    0% {margin-left: 0}
+    20% {margin-left: 0%;}
+
+    25% {margin-left: -100%}
+    45% {margin-left: -100%;}
+    
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+}
+
+.img2 {
+	width: 100%;
+    margin:auto;
+    overflow: hidden;
+    float:left;
+    margin-left: 25%;
+    margin-bottom: 5%;
+}
+
+.texto3 {
+	color: white;
+	text-align: left;
+	font-size: 25px;
+	margin: 4%;
+}
+
+.texto2 hr {
+	width: 45%;
+}
+
+.textolunas {
+	color: white;
+	font-size: 25px;
+	margin: 4%;	
+}
+
+.textolunas hr {
+	width: 92%;
+}
+
+.textolunas1 hr {
+	width: 30%;
+}
+
+.imgleyenda {
+	width: 50%;
+    margin:auto;
+    overflow: hidden;
+    float:left;
+    margin-left: 35%;
+    
+}
+
+.textolunas1 {
+	color: white;
+	font-size: 25px;
+	margin: 4%;
+	float:left;
+}
+
+.expimg {
+	width: 100%;
+    margin:auto;
+    overflow: hidden;
+    float:left;
+    margin-left: 23%
+}
+
+.textoslunas2 {
+	text-align: center;
+	margin-top: 3%;
+	float:left;
+	margin-right: 52%;
+	color:white;
+	font-size:25px;
+}
+
+.textomonstruos {
+	color: white;
+	font-size: 25px;
+	margin: 4%;
+}
+
+.textomonstruos hr {
+	width: 62%;
+}
+
+.imgmonstruos {
+	width: 100%;
+    margin:auto;
+    overflow: hidden;
+    float:left;
+    margin-left: 24%;
+}
+
+.textomons {
+	text-align: center;
+	margin-top: 3%;
+	float:left;
+	margin-right: 52%;
+	color:white;
+	font-size:25px;
+}
+
+.monsfuera {
+	color: white;
+	font-size: 25px;
+	margin: 4%;
+	float:left;
+}
+
+.textolunas1 hr {
+	width: 52%;
+}
+
+.textolunas1 ul {
+	margin:5%;
+}
+
+.textolunas1 li {
+	margin: 6%;
+}
+
+.textolunas1 li b {
+	color:red;
+}
+
+.monsfuera {
+	margin:1%;
+	margin-top: 5%;
+}
+
+.textomonstruos h2 {
+	margin-top: 4%;
+}
+
+.textomons b {
+	color: red;
+}
+
+.parrafoobj {
+	color: white;
+	margin: 4%;
+	font-size: 25px;
+}
+
+.textobj1 {
+	margin-top: 3%;
+}
+
+.table1 table, th, td {
+	color: white;
+	margin-left: 27%;
+	font-size: 25px;
+	border: 1px solid white;
+	text-align: center;
+	width:40%;
+}
+.imgobj {
+ 	width: 100%;
+    margin:auto;
+    overflow: hidden;
+    float:left;
+    margin-left: 4%;
+}
+
+.textobj2 {
+	color: white;
+	font-size: 18px;
+	margin: 4%;
+	margin-top: 10%; 
+}
+
+.objesp {
+	font-size: 16px;
+}
+
+.textobj2 b {
+	color:red;
+	font-size: 20px;
+}
+
+.parrafoobj2 {
+	color: white;
+	margin: 4%;
+	font-size: 25px;
+}
+
+.parrafoobj2 hr {
+	width: 47%;
+}
+
+.textoslunas2 b {
+	color: green;
+}
+
+.piedepagina {
+  	margin-left: 0%;
+	padding-bottom: 0%;
+	margin-top: 5%;
+	height: 200%;
+	width: 100%;
+	float: left;
+  	opacity: 90%;
+  	background-color: grey;
+}
+.piedepagina div {
+  height: 100%;
+  width: 100%;
+  background-color: grey;
+  color: white;
+  text-align: left;
+}
+
+.piedepagina div h2 {
+  padding-left: 10px;
+}
+.piedepagina div p {
+  font-size: small;
+  padding-left: 10px;
+}
+
+.piedepagina div ul li a{
+	color:black;
+}
